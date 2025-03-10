@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, #country-form {
+    position: relative;
+    left: -40%;
+    width: max-content;
+}
+
+#error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#loading {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#country-info {
+    display: none;
+}
+
+
+.country-details {
+    display: table-cell;
+    width: 100%;
+    vertical-align: top;
+}
+
+
+
+.country-flag img {
+    width: 600px;
+    height: 400px;
+}
+
+
+.neighbor img {
+    width: 900px;
+    height: 600px;
+}
+
+.flag-container {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+}
+
+
+.neighbor-name {
+    display: table-cell;
+    vertical-align: top;
+    width: 70%;
+    font-size: 16px;
+}
+
+
+.neighbor-flag img {
+    width: 600px;
+    height: 400px;
+}
+.square-point{
+
+    list-style-type: square;
+
+}
+.display{
+    display: none;
+}
